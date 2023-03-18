@@ -125,13 +125,6 @@ body {
   height: 260px;
 }
 
-.card-background {
-  background: var(--white-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-}
-
 /** -----------------------FOOTER---------------------- */
 
 .footer {
@@ -146,10 +139,10 @@ body {
 
 /** -----------------------MENU---------------------- */
 
-.sorting-btn {
+.project-sorting-btn {
   color: var(--logo-btn-color);
   background: var(--light);
 }
-.sorting-btn:is(:hover, :focus) {
+.project-sorting-btn:is(:hover, :focus) {
   color: var(--white-color);
 }
