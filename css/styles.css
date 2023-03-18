@@ -43,15 +43,16 @@ body {
   text-transform: capitalize;
   color: var(--primary-color);
   text-align: center;
-  letter-spacing: inherit;
+  letter-spacing: 0.02em;
 }
 .btn-fam {
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
+  font-size: 16px;
+  line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
+  text-align: center;
 }
 
 .btn-fam:is(:hover, :focus) {
@@ -79,8 +80,8 @@ body {
   color: var(--primary-color);
 }
 
-.header-address {
-  color: inherit;
+.header-address-link {
+  color: var(--description-text-color);
   font-style: normal;
 }
 
@@ -116,7 +117,7 @@ body {
 .team {
   background-color: var(--secondary-background-color);
 }
-.team-list {
+.team-item {
   background-color: var(--white-color);
 }
 
