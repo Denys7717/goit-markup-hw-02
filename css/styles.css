@@ -82,6 +82,8 @@ body {
 
 .header-address-link {
   color: var(--description-text-color);
+}
+.header-address {
   font-style: normal;
 }
 
