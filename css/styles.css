@@ -106,9 +106,7 @@ body {
 }
 
 /** -----------------------ABOUT---------------------- */
-.about {
-  background-color: var(--secondary-background-color);
-}
+
 /** -----------------------GALLERY---------------------- */
 
 .gallery-img {
