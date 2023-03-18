@@ -34,6 +34,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--primary-color);
+  letter-spacing: 0.02em;
 }
 
 .section-title {
@@ -41,6 +42,8 @@ body {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--primary-color);
+  text-align: center;
+  letter-spacing: inherit;
 }
 .btn-fam {
   font-family: inherit;
@@ -48,6 +51,7 @@ body {
   font-size: inherit;
   line-height: inherit;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
 .btn-fam:is(:hover, :focus) {
@@ -75,7 +79,7 @@ body {
   color: var(--primary-color);
 }
 
-.header-address-link {
+.header-address {
   color: inherit;
   font-style: normal;
 }
@@ -90,6 +94,8 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: var(--white-color);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   color: var(--white-color);
@@ -109,6 +115,9 @@ body {
 /** -----------------------TEAM---------------------- */
 .team {
   background-color: var(--secondary-background-color);
+}
+.team-list {
+  background-color: var(--white-color);
 }
 
 .team-img {
